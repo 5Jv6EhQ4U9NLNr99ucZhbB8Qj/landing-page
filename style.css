@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* || Header */
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header > ul {
+    /* Removes bullet point and paddding from header links */
+    list-style: none;
+    padding: 0px;
+    /* Flexbox layout */
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Removes default styling from anchor tags */
+.links > a {
+    text-decoration-line: none;
+}
+
+/* || Hero Section */
+
+.section--hero {
+    display: flex;
+}
+
+.section--hero_text {
+    flex: 1;
+}
+
+.section--hero_image {
+    flex: 1;
+}
+
+/* || Info Section */
+
+.section--info {
+    display: flex;
+}
+
+.section--info_card {
+    flex: 1;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border: solid;
+}
+
+/* || Quote Section */
+
+/* || CTA Section */
+
+.section--cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--cta_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section--cta_button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
