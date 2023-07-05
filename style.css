@@ -52,8 +52,15 @@ header a {
     background-color: #3882F6;
     font-size: 16px;
     font-weight: bolder;
-    padding: 5px 10px;
+    padding: 5px 15px;
+    border: none;
     border-radius: 7px;
+}
+
+.section--hero > img {
+    flex: 1;
+    height: auto;
+    width: 200px;
 }
 
 /* ||| Info Section */
@@ -121,7 +128,7 @@ header a {
     font-weight: 200;
 }
 
-.section--cta_button > button {
+.section--cta > button {
     color: #E5E7EB;
     background-color: #3882F6;
     font-size: 16px;
@@ -150,19 +157,18 @@ header {
 header > ul {
     display: flex;
     justify-content: flex-end;
+    gap: 20px;
 }
 
 /* ||| Hero Section */
 
 .section--hero {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .section--hero_text {
-    flex: 1;
-}
-
-.section--hero_image {
     flex: 1;
 }
 
@@ -208,6 +214,6 @@ header > ul {
     flex-direction: column;
 }
 
-.section--cta_button {
+.section--cta > button {
     flex: 1;
 }
